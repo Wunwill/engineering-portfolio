@@ -24,16 +24,16 @@ Browser interface                -> displayed images or ROOT objects
 
 Three.js renders the selectable geometry. A raycaster determines which mesh the pointer intersects, and that mesh carries wheel/station/sector metadata. JavaScript passes those identifiers to the plot interface. Providers resolve either packaged image paths or supported ROOT objects; JSROOT handles browser-side ROOT drawing where applicable.
 
-The inspected implementation separates these responsibilities into `detectorScene.js`, `viewerApp.js`, `sidebar.js`, `plotKeys.js`, and `plotProviders.js`. A Python importer prepares a browser-ready package from existing plot directories.
+The implementation separates these responsibilities into `detectorScene.js`, `viewerApp.js`, `sidebar.js`, `plotKeys.js`, and `plotProviders.js`. A Python importer prepares a browser-ready package from existing plot directories.
 
-The model is a simplified navigation representation, not a detector simulation. ROOT is primarily a C++ analysis framework, not a Python library; Python can access it through PyROOT. The website does not generate new collision data or perform alignment fitting when a chamber is clicked.
+The model is a simplified navigation representation, not a detector simulation. Plot generation and alignment fitting remain in the separate analysis workflow; selecting a chamber displays existing results.
 
 ## Repository and Deployment
 
-The team project uses CERN GitLab, which is separate from this GitHub portfolio. A [viewer merge request](https://gitlab.cern.ch/tamu-cms/MuonAlignment/-/merge_requests/20) was submitted there; access may require CERN credentials. This portfolio does not assert that the request is currently merged or that a deployed viewer is currently online.
+The team project uses CERN GitLab, separate from this GitHub portfolio. A [viewer merge request](https://gitlab.cern.ch/tamu-cms/MuonAlignment/-/merge_requests/20) was submitted there; access may require CERN credentials. The link is a source/review reference, not a public live demo.
 
-Source control stores and reviews changes. Separately deployed web files serve the browser interface. GitLab/GitHub storage alone does not establish a working deployment or shared upload backend.
+Source control stores and reviews changes. Separately deployed web files serve the browser interface, and JavaScript runs in the user's browser.
 
 ## Evidence Here
 
-The [standalone Python example](../examples/chamber_plot_index.py) demonstrates chamber lookup using synthetic filenames. It was prepared for this portfolio, not extracted from CERN production code. Original viewer source, research plots, and screenshots are not included pending sharing clearance. Full Monte Carlo alignment validation is not claimed as complete.
+The [standalone Python example](../examples/chamber_plot_index.py) demonstrates chamber lookup using synthetic filenames. It was prepared for this portfolio, not extracted from CERN production code. Original viewer source and research plots remain with the team project. My work supported Monte Carlo validation; this portfolio does not claim completion of the full validation campaign.

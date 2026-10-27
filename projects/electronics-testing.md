@@ -18,8 +18,8 @@ The important distinction is between finding a suspicious component and establis
 
 Systematic troubleshooting, careful handling of sensitive electronics, measurement interpretation, repair verification, and test-result recording.
 
-Reprogramming existing power modules for compatibility is not a claim that I designed an FPGA, developed its RTL, or designed the modules from scratch.
+My programming work involved existing power modules and compatibility changes; the experience described here is bench testing and repair rather than original FPGA or module design.
 
 ## Evidence Here
 
-This page summarizes the experience reported on my resume. No board photographs, proprietary schematics, programming files, serial numbers, or measured test records are included. Those materials would need appropriate permission and redaction before publication. There is no fabricated bench-test dataset in this repository.
+This case study describes my troubleshooting and verification work. Board photographs, proprietary schematics, programming files, serial numbers, and measured test records are not published here. Specific examples can be discussed in an interview within the project's sharing restrictions.

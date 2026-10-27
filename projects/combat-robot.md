@@ -2,6 +2,10 @@
 
 **Context:** Aggie Robotics, team member, February 2026-present.
 
+![Assembly and top views generated from the included robot STEP export](../assets/images/combat-robot-assembly.png)
+
+[Download the STEP assembly](https://github.com/Wunwill/engineering-portfolio/raw/refs/heads/main/assets/cad/12lb-combat-robot-assembly.step) | [Export details](../assets/cad/EXPORT.md)
+
 ## Design Work
 
 - Designed chassis and motor mounts in Onshape using parametric sketches and assemblies.
@@ -15,12 +19,14 @@
 
 The design had to address mass, component clearance, manufacturability, and service access together. Removing material helped meet the mass target, while revised mounting geometry and tool access addressed assembly and maintenance constraints.
 
-The reported reduction is 1.3 lb, approximately 9.9% of the starting assembled weight. The final 11.8 lb leaves 0.2 lb below the nominal 12 lb target. These are resume-reported measurements, not an independently verified competition inspection.
+The assembled weight reduction is 1.3 lb, approximately 9.9% of the starting weight. The final 11.8 lb leaves 0.2 lb below the nominal 12 lb target. The CAD export is a geometry sample; these build measurements and drive-test results are separate from the export.
 
 ## Skills Demonstrated
 
-Parametric CAD, assembly-fit checks, dimensioned drawings, iteration around physical constraints, and practical mechanical testing. This description does not claim finite-element analysis or a quantified strength improvement.
+Parametric CAD, assembly-fit checks, dimensioned drawings, iteration around physical constraints, and practical mechanical testing.
 
-## Evidence Here
+## CAD Sample and Attribution
 
-CAD exports, dimensioned drawings, build photographs, and drive-test records have not yet been supplied for this portfolio. No substitute drawings or renderings are presented as the actual robot. The next useful addition is an approved assembly image paired with a drawing showing one concrete design revision.
+The included STEP AP242 file was exported from the team's Onshape robot assembly on October 27, 2026, using Download only. It is shared with team permission. The exported file is unchanged from the downloaded copy, and the preview above was generated locally from that file. Neutral preview colors are illustrative, not material assignments.
+
+This is a team assembly containing other contributors' work and supplied components. My personal contributions are the chassis/mount design and revisions described above, not every part in the model. The STEP sample provides geometry for review, not the original Onshape feature history or editable mate definitions. Dimensioned drawings, photographs, and measured test records are not bundled.
