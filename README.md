@@ -6,6 +6,14 @@ I work across mechanical design, electronics testing, and scientific software. M
 
 [Email](mailto:william.clay.gipson@gmail.com) | [LinkedIn](https://www.linkedin.com/in/william-clay-gipson/)
 
+## Live Interactive CMS Muon Viewer
+
+**[OPEN THE INTERACTIVE 3D MUON VIEWER](https://wgipson.web.cern.ch/muon.html)**
+
+Explore the detector model and select chambers to see their associated alignment plots. The link opens my separately hosted CERN website; this GitHub repository is the portfolio.
+
+[Read about my contribution and how the viewer works](projects/cms-muon-viewer.md)
+
 ## Featured Project: 12 lb Combat Robot
 
 ![Two views of the Aggie Robotics robot assembly, generated from the included STEP file](assets/images/combat-robot-assembly.png)
@@ -21,7 +29,7 @@ The CAD is an actual team assembly export, shared with permission. It includes w
 | Project | My contribution | Relevant skills |
 | --- | --- | --- |
 | [Electronics Testing and Repair](projects/electronics-testing.md) | Diagnosed and repaired **12 shorted circuits**; verified repairs; reprogrammed **30 power modules** for KRIA compatibility | Thermal imaging, microscope inspection, resistance/continuity and voltage measurements, test records |
-| [CMS Muon Detector Viewer](projects/cms-muon-viewer.md) | Built an interactive 3D interface connecting detector selections to alignment residual plots | JavaScript, Three.js, JSROOT, HTML/CSS, Python, ROOT, Linux, Git/GitLab |
+| [CMS Muon Detector Viewer](projects/cms-muon-viewer.md) - [Open interactive viewer](https://wgipson.web.cern.ch/muon.html) | Built an interactive 3D interface connecting detector selections to alignment residual plots | JavaScript, Three.js, JSROOT, HTML/CSS, Python, ROOT, Linux, Git/GitLab |
 
 ## Code Sample
 

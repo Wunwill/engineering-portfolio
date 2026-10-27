@@ -2,6 +2,12 @@
 
 **Context:** CERN A&M Chapter, muon alignment and electronics testing, May-August 2026.
 
+## Try the Interactive Viewer
+
+**[OPEN THE LIVE 3D MUON VIEWER](https://wgipson.web.cern.ch/muon.html)**
+
+Explore the detector model and select chambers to view their associated alignment plots. This opens the separately hosted CERN website, not the GitLab source-code page.
+
 ## Problem
 
 Alignment workflows produce many plots organized by detector identifiers. A 3D navigation interface makes it easier to find the plots associated with a wheel, station, and sector instead of navigating output directories manually.
