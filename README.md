@@ -14,15 +14,11 @@ Explore the detector model and select chambers to see their associated alignment
 
 [Read about my contribution and how the viewer works](projects/cms-muon-viewer.md)
 
-## Featured Project: 12 lb Combat Robot
-
-![Two views of the Aggie Robotics robot assembly, generated from the included STEP file](assets/images/combat-robot-assembly.png)
+## Robotics Design Experience
 
 **My work:** chassis and motor-mount design, clearance checks, improved motor replacement access, and weight-reduction revisions using Onshape. Assembled weight was reduced from **13.1 to 11.8 lb**, with mounting alignment and fastener retention checked during three drive-test sessions.
 
-[Project details](projects/combat-robot.md) | [Download STEP assembly](https://github.com/Wunwill/engineering-portfolio/raw/refs/heads/main/assets/cad/12lb-combat-robot-assembly.step) | [CAD export details and team credit](assets/cad/EXPORT.md)
-
-The CAD is an actual team assembly export, shared with permission. It includes work by other team members and components I did not design. The preview uses neutral display colors, not original material colors.
+[Read about my design contributions](projects/combat-robot.md)
 
 ## More Engineering Work
 
@@ -33,7 +29,7 @@ The CAD is an actual team assembly export, shared with permission. It includes w
 
 ## Code Sample
 
-[Chamber plot index](examples/chamber_plot_index.py) demonstrates a small part of the detector-to-plot lookup concept: parsing identifiers, validating selections, and retrieving matching files. It uses synthetic paths and needs only Python 3.10 or newer. The repository has 13 automated tests covering the code sample, CAD integrity, preview format, and local documentation links.
+[Chamber plot index](examples/chamber_plot_index.py) demonstrates a small part of the detector-to-plot lookup concept: parsing identifiers, validating selections, and retrieving matching files. It uses synthetic paths and needs only Python 3.10 or newer. Automated tests cover the code sample, local documentation links, and exclusion of the removed robot assets.
 
 ```bash
 python examples/chamber_plot_index.py examples/synthetic_plot_paths.json --wheel -2 --station 1 --sector 5
