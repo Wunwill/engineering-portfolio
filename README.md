@@ -38,7 +38,6 @@ python -m unittest discover -s tests -v
 
 [View automated test results](https://github.com/Wunwill/engineering-portfolio/actions/workflows/tests.yml)
 
-This sample was prepared for the portfolio with AI assistance. It is not the original CERN importer or a physics-analysis program. The original viewer's architecture and my contribution are described on its project page.
 
 ## Teamwork and Technical Communication
 
